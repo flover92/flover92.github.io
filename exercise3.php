@@ -8,7 +8,7 @@
  </head>
 <body>
 	<?php
-	function plus()
+	function plus() 
 {
 ?>
 	<form name="plus" action="" method="GET">

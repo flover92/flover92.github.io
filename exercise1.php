@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
- <head>
-	 <meta chartset="utf-8"/>
-	 <title>Завдання1</title>
- </head>
-<body>
+<form method="GET" action="">
+	<input type="number" name="num" value="6" min="6" requred>
+	<input type="submit" value="send">
+</form>
 <?php 
 	if(!isset($_GET['num'])) exit();
 	
@@ -25,7 +22,7 @@
 
 	}
 
-	$perfectNums = array();
+	$perfectNums = [];
 	for($i = 6; $i<=$_GET['num']; $i++) {
 		if(isPerfect($i)) {
 			$perfectNums[] = $i;
@@ -35,5 +32,3 @@
 	if(count($perfectNums) > 0)
 		echo "<p>Perfect numbers from 6 to {$_GET['num']}: ".implode(', ', $perfectNums)."</p>";
 ?>
-</body>
-</html>

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada|Raleway');
+
+
+body {
+  margin: 0;
+  background-image: url(christmas.jpg);
+}
+nav {
+  display: block;
+  width: 650px;
+  margin: 20px auto 0;
+}
+ul {
+  list-style: none;
+  counter-reset: li;
+  text-align: center;
+}
+li {
+  display: inline-block;
+}
+
+a:before {
+  position: absolute;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+ #horizontal {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding: 20px 30px 30px 20px;
+  margin-right: 10px;
+  transition: all 0.4s ease-in-out;
+}
+a#horizontal:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+ #vertical {
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', cursive;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: left;
+  padding: 20px 10px 40px 50px;
+  
+ }
+
+  table a#vertical:hover {
+  background: rgba(255, 255, 255, 0.3);
+  
+  color: black;
+  width: 90%;
+  border-radius: 17px;
+ }
+ 
+ div{
+	 margin-top: 120px;
+	 font-size: 20px;
+	 text-align: center; 
+	 color: green;
+  }

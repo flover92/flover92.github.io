@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri|Kurale');
+
+body {
+  background-image: url(work.jpg);
+  
+}
+#info{
+	font-family: 'El Messiri', sans-serif;
+	background-color: #fff;
+	color: #000000;
+	padding: 50px;
+	border: 6px solid #2F3841;
+	border-radius: 50px;
+	opacity: 0.75;
+	width: 40%;
+	height: 500px;
+	font-weight: 800;
+
+}
+
+photo{
+	opacity: 0;
+}

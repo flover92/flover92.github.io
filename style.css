@@ -50,21 +50,21 @@ a#horizontal:hover {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: left;
-  padding: 20px 10px 40px 50px;
+  padding: 30px 10px 40px 50px;
   
  }
 
   table a#vertical:hover {
   background: rgba(255, 255, 255, 0.3);
-  
   color: black;
   width: 90%;
   border-radius: 17px;
  }
  
- div{
-	 margin-top: 120px;
-	 font-size: 20px;
+ .about{
+	 margin-top: 290px;
+	 font-size: 18px;
+	 font-family: 'Monserrat', sans-serif;
 	 text-align: center; 
-	 color: green;
+	 color: white;
   }
